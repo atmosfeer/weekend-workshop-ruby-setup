@@ -33,7 +33,9 @@ On Mac, you need to install [Homebrew](http://brew.sh/) which is a Package Manag
 It will be used as soon as we need to install some software.
 To do so, open your Terminal and run:
 
-`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+```bash
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 This will ask for your confirmation (hit `Enter`) and your laptop session password.
 
@@ -54,8 +56,8 @@ brew update
 
 Error message or not, proceed running the following in the terminal. Copy and paste one line at a time (the first line ends with the } character).
 
-`function install_or_upgrade { brew ls | grep $1 > /dev/null; if (($? == 0)); then brew upgrade $1; else brew install $1; fi }`
 ```bash
+function install_or_upgrade { brew ls | grep $1 > /dev/null; if (($? == 0)); then brew upgrade $1; else brew install $1; fi }
 install_or_upgrade "git"
 install_or_upgrade "wget"
 install_or_upgrade "imagemagick"
@@ -77,7 +79,9 @@ Again, make sure that Sublime Text is there, not in the disk image you downloade
 
 We will use the shell named `zsh` instead of `bash`, the default one.
 
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
 
 Be careful, at the end of this script, it will prompt for your laptop password again. You have to write it correctly (you will not see it when you type) and hit `Enter`. You should get something like:
 
