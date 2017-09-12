@@ -15,7 +15,7 @@ Setup guides made for the Ruby Weekend workshop from [Le Wagon Copenhagen](https
     <td>
       <h2 style="text-align: center; margin-top: 0px">Linux</h2>
       <a href="SetupLinux.md">
-        <img src="images/linux.png" alt="Ubuntu" />
+        <img src="images/linux.png" alt="Ubuntu">
       </a>
     </td>
     <td>
