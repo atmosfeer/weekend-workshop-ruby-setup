@@ -29,13 +29,15 @@ This step is pretty simple. We create new empty folders on your computer and dow
 ### Step 5: Run Docker Container
 Copy paste this long line to start the Ruby Virtual Environment. You're all set to start coding now.
 
-`docker run -it -v ~/code/lewagon-weekend-workshop:/home/code/lewagon-weekend-workshop atmosfeer/lewagonsetup:latest /bin/zsh`
+```bash
+docker run -it -v ~/code/lewagon-weekend-workshop:/home/code/lewagon-weekend-workshop atmosfeer/lewagonsetup:latest /bin/zsh
+```
 
 From now on, all you need to do is to run this last line from the Docker Quickstart Terminal whenever you want to work on our challenges.
 
 ### Step 6: Navigate to your challenges and open them in Sublime
 
-Press `windows key + e` to bring up windows explorer.
+Press `Windows Key + E` to bring up windows explorer.
 Press F4 to go to the address bar.
 Copy paste this line:
 
