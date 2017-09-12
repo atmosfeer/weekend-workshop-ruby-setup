@@ -15,13 +15,13 @@ Run the docker quickstart Terminal, there should be a shortcut on your Desktop. 
 
 The Docker Quickstart Terminal is where you'll be able to write commands and run Ruby code just like you could if you had a Linux or Mac machine.
 
-<span style="color: #d23333">  *If you get an error here, you need to enable CPU Virtualization. It's a lot less scary than it sounds, just ask a teacher.*</span>
+<span style="color: #d23333">*If you get an error here, you need to enable CPU Virtualization. It's a lot less scary than it sounds, just ask a teacher.*</span>
 
 ### Step 4: Create folder and download challenges
 Copy paste these lines one at a time into your Docker Terminal, pressing enter after pasting each one:
 ```bash
-cd ~ && mkdir -p code/lewagon-workshop && cd code/lewagon-workshop
-git clone https://github.com/atmosfeer/lewagon-challenges.git
+  cd ~/code
+  git clone https://github.com/atmosfeer/lewagon-weekend-workshop.git
 ```
 
 This step is pretty simple. We create new empty folders on your computer and download the challenges of the workshop into them using git.
@@ -29,7 +29,7 @@ This step is pretty simple. We create new empty folders on your computer and dow
 ### Step 5: Run Docker Container
 Copy paste this long line to start the Ruby Virtual Environment. You're all set to start coding now.
 
-`docker run -it -v ~/code/lewagon-workshop/lewagon-challenges:/home/code/lewagon-workshop/lewagon-challenges atmosfeer/lewagonsetup:firstbuild /bin/zsh`
+`docker run -it -v ~/code/lewagon-weekend-workshop:/home/code/lewagon-weekend-workshop atmosfeer/lewagonsetup:latest /bin/zsh`
 
 From now on, all you need to do is to run this last line from the Docker Quickstart Terminal whenever you want to work on our challenges.
 
@@ -39,6 +39,6 @@ Press `windows key + e` to bring up windows explorer.
 Press F4 to go to the address bar.
 Copy paste this line:
 
-`%UserName%/code/lewagon-workshop/lewagon-challenges`
+`%UserName%/code/lewagon-weekend-workshop`
 
 Navigate to your current challenge and drag and drop the relevant folder into Sublime. Code away!
