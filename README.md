@@ -7,19 +7,19 @@ Setup guides made for the Ruby Weekend workshop from [Le Wagon Copenhagen](https
 <table>
   <tr>
     <td>
-      <h2 style="margin-left: 22%">Apple</h2>
+      <h2>Apple</h2>
       <a href="SetupMacOS.md">
         <img src="images/apple.png" alt="Ubuntu">
       </a>
     </td>
     <td>
-      <h2 style="margin-left: 22%">Linux</h2>
+      <h2>Linux</h2>
       <a href="SetupLinux.md">
         <img src="images/linux.png" alt="Ubuntu">
       </a>
     </td>
     <td>
-      <h2 style="margin-left: 22%">Windows</h2>
+      <h2>Windows</h2>
       <a href="SetupWindows.md">
         <img src="images/windows.png" alt="Windows">
       </a>
