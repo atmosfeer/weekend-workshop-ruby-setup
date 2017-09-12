@@ -19,6 +19,7 @@ Setup guides made for the Ruby Weekend workshop from [Le Wagon Copenhagen](https
       </a>
     </td>
     <td>
+      <h2>Windows</h2>
       <a href="SetupWindows.md">
         <img src="images/windows.png" alt="Windows">
       </a>
