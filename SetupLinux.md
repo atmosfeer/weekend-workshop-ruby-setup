@@ -67,6 +67,7 @@ Hackers love to refine and polish their shell and tools. We will start with a gr
 Now copy/paste this line in your terminal.
 
 ```bash
+cd ~ && mkdir code
 cd ~/code && git clone https://github.com/atmosfeer/dotfiles-workshop.git
 ```
 
@@ -155,3 +156,21 @@ gem install rspec rubocop pry pry-byebug hub colored octokit
 
 **Never** install a gem with `sudo gem install`! Even if you stumble upon a Stackoverflow answer
 (or the Terminal) telling you to do so.
+
+## Download the assignments for today's workshop
+
+Now your computer is all set to begin coding with a real developer environment. All that's left to do is download today's assignments from our online Github repo. Run these two lines:
+
+```bash
+  cd ~/code
+  git clone https://github.com/atmosfeer/lewagon-weekend-workshop.git
+```
+
+## Get started with challenges
+
+Copy these two lines in the terminal to get started with the first challenge:
+
+```bash
+  cd ~/code/lewagon-workshop/lewagon-challenges/day-1-ruby-basics/01-My-First-Methods
+  stt
+```
