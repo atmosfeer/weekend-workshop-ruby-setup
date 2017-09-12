@@ -20,7 +20,7 @@ The Docker Quickstart Terminal is where you'll be able to write commands and run
 ### Step 4: Create folder and download challenges
 Copy paste these lines one at a time into your Docker Terminal, pressing enter after pasting each one:
 ```bash
-  cd ~/code
+  cd ~ && mkdir code && cd code
   git clone https://github.com/atmosfeer/lewagon-weekend-workshop.git
 ```
 
