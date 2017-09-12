@@ -8,10 +8,7 @@ Setup guides made for the Ruby Weekend workshop from [Le Wagon Copenhagen](https
   <tr>
       <td>
         <a href="SetupMacOS.md">
-        <h2 style="text-align: center; margin-top: 0px">Apple</h2>
-        </a>
-        <a href="SetupMacOS.md">
-          <img src="images/apple.png" alt="OSX" />
+          <h2>Mac</h2>  
         </a>
 
       </td>
