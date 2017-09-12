@@ -13,8 +13,8 @@ Setup guides made for the Ruby Weekend workshop from [Le Wagon Copenhagen](https
       </a>
     </td>
     <td>
-      <h2>Linux</h2>
-      <a href="SetupLinux.md">
+      <h2>Ubuntu</h2>
+      <a href="SetupUbuntu.md">
         <img src="images/linux.png" alt="Ubuntu">
       </a>
     </td>
