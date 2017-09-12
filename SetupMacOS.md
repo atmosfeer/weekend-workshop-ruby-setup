@@ -54,7 +54,7 @@ sudo chown -R $USER:admin /usr/local
 brew update
 ```
 
-Error message or not, proceed running the following in the terminal. Copy and paste one line at a time (the first line ends with the } character).
+Error message or not, proceed running the following in the terminal. You can copy and paste all these lines at once.
 
 ```bash
 function install_or_upgrade { brew ls | grep $1 > /dev/null; if (($? == 0)); then brew upgrade $1; else brew install $1; fi }
@@ -210,5 +210,7 @@ gem install rspec rubocop pry pry-byebug hub colored octokit
 
 Copy these two lines in the terminal to get started with the first challenge:
 
-`cd ~/code/lewagon-workshop/lewagon-challenges/day-1-ruby-basics/01-My-First-Methods`
-`stt`
+```bash
+  cd ~/code/lewagon-workshop/lewagon-challenges/day-1-ruby-basics/01-My-First-Methods
+  stt
+```
