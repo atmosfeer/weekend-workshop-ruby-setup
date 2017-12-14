@@ -6,7 +6,7 @@ Download and install [Sublime Text](https://www.sublimetext.com/3).
 This is the text editor where you'll be writing your code.
 
 ### Step 2: Download Docker Toolbox
-Download and install [Docker Toolbox](https://www.docker.com/products/docker-toolbox) here. Just leave the default boxes ticked and click next until the installation process begins.
+Download and install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/) here. Just leave the default boxes ticked and click next until the installation process begins.
 
 As writing in Ruby on Windows poses many problems, we will use a virtualization tool to simulate a Linux developer environment. Docker will handle that for us.
 
