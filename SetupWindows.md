@@ -42,6 +42,12 @@ Copy paste this long line to start the Ruby Virtual Environment. This will take 
 docker run -it -v ~/code/lewagon-weekend-workshop:/home/code/lewagon-weekend-workshop atmosfeer/lewagonsetup:latest /bin/zsh
 ```
 
+Better line(Need to check for windows)
+
+```bash
+docker run -it --mount type=bind,source="$(pwd)",target=/lewagon-challenges atmosfeer/lewagonsetup:latest /bin/zsh
+```
+
 When you're done, it should look something like this:
 
 ![](images/docker_pull_complete.png)
